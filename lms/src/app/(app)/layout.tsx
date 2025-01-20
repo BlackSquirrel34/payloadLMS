@@ -9,7 +9,7 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps): ReactNode {
   return (
     <html>
-      <body>{children}</body>
+      <body className="bg-black text-white">{children}</body>
     </html>
   )
 }

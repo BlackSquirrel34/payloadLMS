@@ -24,6 +24,6 @@
     },
     "target": "ES2022"
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/(app)/signup/_components/_components"],
   "exclude": ["node_modules"]
 }

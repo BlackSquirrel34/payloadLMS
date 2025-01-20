@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.textInput {
+    @apply bg-black text-white border border border-white rounded-md p-2;
+}
